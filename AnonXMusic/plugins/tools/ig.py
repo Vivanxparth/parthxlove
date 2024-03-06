@@ -25,7 +25,7 @@ async def link_handler(app, message):
     link = message.matches[0].group(0)
     global headers
     try:
-        m = await message.reply_text("𝐣𝐨𝐢𝐧 - https://t.me/+bUXohRbj8kc4N2U9")
+        m = await message.reply_text("Thank You for using @OWNER_DHPR")
         url= link.replace("instagram.com","ddinstagram.com")
         url=url.replace("==","%3D%3D")
         if url.endswith("="):
